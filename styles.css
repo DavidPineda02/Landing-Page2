@@ -39,10 +39,11 @@
 }
 
 .content{
-    margin-left: 60px;
-    width: calc(100% - 60px);
+    margin-left: 80px;
+    width: calc(100% - 80px);
     background-color: #fff;
-    padding: 50px 70px 50px 130px;
+    padding: 50px 70px 50px 90px;
+    height: 100vh;
 }
 
 header {
