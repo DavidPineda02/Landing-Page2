@@ -13,13 +13,10 @@
     top: 0;
     bottom: 0;
     left: 0;
-    width: 50px;
+    width: 80px;
     background-color: #01504d;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
+    display: inline-block;
+    padding: 25px;
 }
 
 .home-icon img {
@@ -28,14 +25,13 @@
 }
 
 .social-icons {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    margin-top: 650px;
 }
 
 .social-icons img {
     width: 30px;
     height: 30px;
+    margin-bottom: 20px;
 }
 
 .content{
@@ -81,4 +77,9 @@ header {
 .number-wsp a {
     color: #1ba974;
     text-decoration: none;
+}
+
+main {
+    border: 2px solid #1ba974;
+    height: 90%;
 }
