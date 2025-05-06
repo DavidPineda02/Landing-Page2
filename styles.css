@@ -43,3 +43,43 @@
     width: 30px;
     height: 30px;
 }
+
+.content{
+    margin-left: 60px;
+    width: calc(100% - 60px);
+    background-color: #fff;
+    padding: 50px 70px 50px 130px;
+}
+
+header {
+    background-color: #fff;
+    margin-bottom: 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.number-wsp {
+    display: flex;
+    align-items: center;
+}
+
+.number-wsp img {
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+}
+
+.number-wsp a {
+    color: #1ba974;
+    text-decoration: none;
+}
