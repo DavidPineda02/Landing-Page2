@@ -245,3 +245,100 @@ main {
     margin-left: 10px;
     vertical-align: middle;
 }
+
+@media (max-width: 992px) {
+    .content-wrapper {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .left-column,
+    .right-column {
+        width: 100%;
+        float: none;
+        height: auto;
+        min-height: 300px;
+    }
+
+    .text {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .buttons button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .right-column {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+    }
+
+    .navbar a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .number-wsp {
+        float: none;
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .text h1 {
+        font-size: 2rem;
+    }
+
+    .text h2 {
+        font-size: 1.5rem;
+    }
+
+    .text p {
+        font-size: 0.9rem;
+    }
+
+    .form-group label {
+        font-size: 12px;
+    }
+
+    .form-group input {
+        font-size: 10px;
+    }
+
+    .right-column h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .text h1 {
+        font-size: 1.8rem;
+    }
+
+    .text h2 {
+        font-size: 1.2rem;
+    }
+
+    .text p {
+        font-size: 0.8rem;
+    }
+
+    .buttons button {
+        font-size: 0.9rem;
+    }
+
+    .form-group input {
+        padding: 8px;
+    }
+
+    .right-column h2 {
+        font-size: 1.3rem;
+    }
+}
